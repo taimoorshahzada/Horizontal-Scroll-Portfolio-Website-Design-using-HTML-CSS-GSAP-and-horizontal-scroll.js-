@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #141414;
+    color: #f0f0f0;
+    font-family: "Monument";
+    overflow: hidden !important;
+    height: 100%;
+}
+.menu{
+    position: fixed !important;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 5;
+}
+.menu .logo{
+    margin-left: 40px;
+}
+.menu .logo a{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 15px;
+}
+.menu .items ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+.menu-items{
+    margin-left: 20px;
+
+}
+.menu-items a{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.content{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.container{
+    position: relative;
+    width: 560px;
+    height: 380px;
+    margin: 50px 500px 20px 80px;
+}
+.c0 h1{
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 600px;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(201,201,201);
+    font-weight: lighter;
+}
+.c0 .c0-main{
+    color: #f0f0f0;
+    font-size: 100px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+.container .c-title{
+    position: absolute;
+    left: 40px;
+    bottom: -40px;
+    font-family: 'Monument';
+    font-style: italic;
+    text-transform: lowercase;
+    font-size: 50px;
+}
+.c-title a{
+    color: #f0f0f0;
+    text-decoration: none;
+
+}
+.c1{
+    background: url(/assets/img1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: .6s;
+    opacity: .5;
+}
+.c2{
+    background: url(/assets/img2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: .6s;
+    opacity: .5;
+}
+.c3{
+    background: url(/assets/img3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: .6s;
+    opacity: .5;
+}
+.c4{
+    background: url(/assets/img4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: .6s;
+    opacity: .5;
+}
+.c1:hover,
+.c2:hover,
+.c3:hover,
+.c4:hover{
+    transform: scale(1.2);
+    transition: .6s;
+    opacity: 1;
+}
+.container:hover .c-title a{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgb(255, 253, 149);
+    text-decoration: underline .5px;
+}
+.social-links{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 2;
+}
+.social-links-ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+.social-links-ul li{
+    margin-left: 20px;
+}
+.social-links-ul li a{
+    color: white;
+    font-size: 20px;
+}
